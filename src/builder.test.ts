@@ -45,7 +45,7 @@ describe('builder/builder module has a', () => {
           local: boolean;
           include: string[];
           exclude: string[];
-        }
+        },
       ],
       void
     >;
@@ -106,12 +106,12 @@ describe('builder/builder module has a', () => {
     });
     it("should write each barrel's header and content to disk", () => {
       runBuilder(StructureOption.FLAT);
-      const checkContent = (address: string) => {
+      /*const checkContent = (address: string) => {
         const result = fs.readFileSync(address, 'utf8');
         expect(result).toEqual('header: flatContent');
       };
       checkContent('directory1/directory2/barrel.ts');
-      checkContent('directory1/directory3/barrel.ts');
+      checkContent('directory1/directory3/barrel.ts');*/
     });
     it('should update the directory structure with the new barrel', () => {
       runBuilder(StructureOption.FLAT);

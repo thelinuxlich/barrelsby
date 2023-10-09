@@ -29,12 +29,12 @@ import * as indexts from "./index";
 export {barrelts as barrel};
 export const directory2 = {
   directory4: {
-    deeplyNested: directory2directory4deeplyNestedts,
+    deeplyNested: directory2directory4deeplyNestedts.deeplyNested,
   },
-  script: directory2scriptts,
+  script: directory2scriptts.script,
 };
 export const directory3 = {
-  program: directory3programts,
+  program: directory3programts.program,
 };
 export {indexts as index};
 `
@@ -71,12 +71,12 @@ import * as indexts from './index';
 export {barrelts as barrel};
 export const directory2 = {
   directory4: {
-    deeplyNested: directory2directory4deeplyNestedts,
+    deeplyNested: directory2directory4deeplyNestedts.deeplyNested,
   },
-  script: directory2scriptts,
+  script: directory2scriptts.script,
 };
 export const directory3 = {
-  program: directory3programts,
+  program: directory3programts.program,
 };
 export {indexts as index};
 `
@@ -112,12 +112,12 @@ import * as indexts from "./index"
 export {barrelts as barrel}
 export const directory2 = {
   directory4: {
-    deeplyNested: directory2directory4deeplyNestedts,
+    deeplyNested: directory2directory4deeplyNestedts.deeplyNested,
   },
-  script: directory2scriptts,
+  script: directory2scriptts.script,
 }
 export const directory3 = {
-  program: directory3programts,
+  program: directory3programts.program,
 }
 export {indexts as index}
 `

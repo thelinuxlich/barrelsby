@@ -17,7 +17,7 @@ function stringify(structure: ExportStructure, previousIndentation: string): str
 ${nextIndentation}${key}: `;
     const exported = structure[key];
     if (typeof exported === 'string') {
-      content += exported;
+      content += `${exported}.${key}`;
     } else {
       content += stringify(exported, nextIndentation);
     }
